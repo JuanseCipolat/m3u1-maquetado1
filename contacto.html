@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Frecuencia Gamer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/frecuenciagamer.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="img/logo.jpg" width="100px" alt="Frecuencia Gamer" />
+        <h1>Frecuencia Gamer</h1>
+      </div>
+    </header>
+    <nav>
+      <ul class="holder">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="retro.html">Retro</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a class="activo" href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <main>
+            <h2>Contacto</h2>
+        <section class="seccion-contacto">
+            <form action="#" method="post">
+                <div class="grupo-formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+      <p>© 2024 Frecuencia Gamer. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
